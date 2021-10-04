@@ -1,0 +1,2 @@
+display: flex
+flex-direction : row(default) | row-reverse | column | column-reverse
