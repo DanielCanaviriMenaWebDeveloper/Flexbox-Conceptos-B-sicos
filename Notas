@@ -1,4 +1,8 @@
 display: flex
+Nota: Automaticamente se aplican 3 valores por defecto:
+    - flex-direction: row;
+    - justify-content: flex-start;
+    - align-items: stretch;
 
 flex-direction : row(default) | row-reverse | column | column-reverse
 
