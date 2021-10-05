@@ -118,6 +118,18 @@ h1, h2 {
     align-items: center;
 }
 
+/* 8.- Flex Basis */
+.d-flex-8 {
+    display: flex;
+}
+
+/* Se aplica a los flex-items */
+.d-flex-8 .box {
+    flex-basis: 33.3%;
+    flex-basis: 200px; /* Medida Inicial, en caso un elemento requiera mas espacio lo toma.*/
+}
+
+
 
 
 

@@ -11,3 +11,6 @@ justify-content: flex-start(default) | flex-end | center | space-around | space-
 align-items : stretch(default) | flex-start | flex-end | center | baseline 
 Nota: baseline solo se aplica cuando el flex-direction tiene el valor de row
 
+flex-basis : Permite definir un ancho inicial se lo aplica en los flex-items
+Nota: A diferencia de width que define un ancho fijo, flex-basis define un ancho inicial dando opción
+a los flex-items de que en el caso requieran mas espacio estos lo ocupen.
