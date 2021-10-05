@@ -72,6 +72,26 @@ h1, h2 {
     justify-content: space-evenly;
 }
 
+/* 5.- Align Items (Dirección Row) */
+.d-flex-5 {
+    display: flex;
+    height: 700px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;  
+}
+
+.d-flex-5 .box {
+    height: 150px;
+}
+
+.d-flex-5 .box:nth-child(2) {
+    height: 300px;
+}
+
+.d-flex-5 .box:nth-child(3) {
+    height: 100%;
+}
 
 
 

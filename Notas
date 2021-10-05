@@ -3,3 +3,5 @@ display: flex
 flex-direction : row(default) | row-reverse | column | column-reverse
 
 justify-content: flex-start(default) | flex-end | center | space-around | space-between | space-evenly
+
+align-items : stretch(default) | flex-start | flex-end | center | baseline
