@@ -4,4 +4,6 @@ flex-direction : row(default) | row-reverse | column | column-reverse
 
 justify-content: flex-start(default) | flex-end | center | space-around | space-between | space-evenly
 
-align-items : stretch(default) | flex-start | flex-end | center | baseline
+align-items : stretch(default) | flex-start | flex-end | center | baseline 
+Nota: baseline solo se aplica cuando el flex-direction tiene el valor de row
+
