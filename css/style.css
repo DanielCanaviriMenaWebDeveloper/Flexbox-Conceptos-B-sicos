@@ -129,7 +129,17 @@ h1, h2 {
     flex-basis: 200px; /* Medida Inicial, en caso un elemento requiera mas espacio lo toma.*/
 }
 
+/* 9.- Gap y Calc */
 
+.d-flex-9 {
+    display: flex;
+/*     gap: 2rem;
+    column-gap: 2rem; */
+}
+
+.d-flex-9 .box {
+    flex-basis: calc(150px);
+}
 
 
 

@@ -13,4 +13,13 @@ Nota: baseline solo se aplica cuando el flex-direction tiene el valor de row
 
 flex-basis : Permite definir un ancho inicial se lo aplica en los flex-items
 Nota: A diferencia de width que define un ancho fijo, flex-basis define un ancho inicial dando opción
-a los flex-items de que en el caso requieran mas espacio estos lo ocupen.
+a los flex-items de que en el caso requieran mas espacio estos lo ocupen. Asi tambien los elementos 
+ocupan el ancho minimo que requieren. 
+
+gap : Forma nueva de dar espacio entre elementos, se aplica al flex container.
+Nota: Para crear espacios entre columnas anteriormente se hacia uso de la función calc()
+
+calc : Puede realizar cálculos para determinar valores de propiedades CSS. 
+
+
+
