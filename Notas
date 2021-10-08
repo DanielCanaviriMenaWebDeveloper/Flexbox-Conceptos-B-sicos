@@ -21,5 +21,7 @@ Nota: Para crear espacios entre columnas anteriormente se hacia uso de la funci√
 
 calc : Puede realizar c√°lculos para determinar valores de propiedades CSS. 
 
+flex-wrap : no-wrap (default) | wrap | wrap-reverse 
+
 
 

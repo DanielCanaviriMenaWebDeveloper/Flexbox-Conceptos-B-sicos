@@ -141,5 +141,15 @@ h1, h2 {
     flex-basis: calc(150px);
 }
 
+/* 10.- Flex Wrap */
+.d-flex-10 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos den salto de linea en caso no entren en su contenedor*/
+}
+
+.d-flex-10 .box {
+    flex-basis: 33.3%;
+}
+
 
 
