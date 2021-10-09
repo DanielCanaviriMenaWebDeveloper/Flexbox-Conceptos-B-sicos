@@ -151,5 +151,22 @@ h1, h2 {
     flex-basis: 33.3%;
 }
 
+/* 11.- Flex Grow */
+.d-flex-11 {
+    display: flex;
+}
+
+.d-flex-11 .box:nth-child(1) {
+    flex-grow: 2;
+}
+
+.d-flex-11 .box:nth-child(2) {
+    flex-grow: 1;
+}
+
+.d-flex-11 .box:nth-child(3) {
+    flex-grow: 1;
+}
+
 
 
