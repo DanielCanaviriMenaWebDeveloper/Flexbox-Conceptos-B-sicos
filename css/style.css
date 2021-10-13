@@ -182,11 +182,20 @@ h1, h2 {
     flex-shrink: 2;
 }
 
-/*13.- .d-flex-13  .box*/
-.d-flex-13 .box{
-    flex-basis: 33.3%;
-    flex-grow: 1;
-    flex-shrink: 1;
+/* 13.- Flex Shorthand */
+.d-flex-13 {
+    display: flex;
+    justify-content: space-between;
 }
+
+.d-flex-13 .box {
+    flex-grow: 1; /* Factor de Crecimiento */
+    flex-shrink: 0;/* Factor de reducción */
+    flex-basis: 33.3%;
+
+    flex: 1 0 33.3%; /* flex-grow | flex-shrink | flex-basis */
+    flex: 0 0 calc(33.3% - 1rem);
+}
+
 
 
