@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: lightblue;
+    margin: auto;
+    display: flex;
+}
+
+.item {
+    background: teal;
+}
+
+.item:nth-child(even) { /* Elementos pares */
+    background: steelblue;
+}

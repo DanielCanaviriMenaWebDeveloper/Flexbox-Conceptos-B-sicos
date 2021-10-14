@@ -23,11 +23,25 @@ calc : Puede realizar cálculos para determinar valores de propiedades CSS.
 
 flex-wrap : no-wrap (default) | wrap | wrap-reverse 
 
+=======================================================
+=======================================================
+    Guia Definitiva de Flexbox Conceptos - (MAIN SIZE, CROSS SIZE)
+=======================================================
+=======================================================
+1.-  Cuando el Flex Direction tiene el valor de ROW
 
-Guia Definitiva Conceptos
-El Ma
-MainSize
-CrossSize
+    - El MAIN SIZE es relativo al MAIN AXIS 
+      por tanto de manera predeterminada por Default el Main Size es el WIDTH
 
+    - El CROSS SIZE es relativo al CROSS AXIS 
+      por tanto de manera predeterminada por Default el Cross Size es el HEIGHT
 
+2.- Cuando el Flex Direction tiene el valor de COLUMN 
 
+    - El MAIN SIZE es relativo al MAIN AXIS
+      por tanto de manera predeterminada por Default el Main Size es el HEIGHT
+    
+    - El CROSS SIZE es relativo al CROSS AXIS 
+      por tanto de manera predeterminada por Default el Cross Size es el WIDTH
+
+    
