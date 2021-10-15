@@ -28,7 +28,7 @@ flex-wrap : no-wrap (default) | wrap | wrap-reverse
     Guia Definitiva de Flexbox Conceptos - (MAIN SIZE, CROSS SIZE)
 =======================================================
 =======================================================
-1.-  Cuando el Flex Direction tiene el valor de ROW
+1.-  Cuando el Flex Direction tiene el valor de ROW (Horizontal)
 
     - El MAIN SIZE es relativo al MAIN AXIS 
       por tanto de manera predeterminada por Default el Main Size es el WIDTH
@@ -36,7 +36,7 @@ flex-wrap : no-wrap (default) | wrap | wrap-reverse
     - El CROSS SIZE es relativo al CROSS AXIS 
       por tanto de manera predeterminada por Default el Cross Size es el HEIGHT
 
-2.- Cuando el Flex Direction tiene el valor de COLUMN 
+2.- Cuando el Flex Direction tiene el valor de COLUMN (Vertical)
 
     - El MAIN SIZE es relativo al MAIN AXIS
       por tanto de manera predeterminada por Default el Main Size es el HEIGHT
@@ -44,4 +44,7 @@ flex-wrap : no-wrap (default) | wrap | wrap-reverse
     - El CROSS SIZE es relativo al CROSS AXIS 
       por tanto de manera predeterminada por Default el Cross Size es el WIDTH
 
+3.- Como se calcula el CROSS SIZE 
+    - Se calcula mediante 3 escenarios
+    1. Se ha definido el tamaño ya sea por width o height, segun el flex-direction.
     

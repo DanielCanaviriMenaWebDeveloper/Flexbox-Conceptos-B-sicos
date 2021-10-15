@@ -19,7 +19,13 @@ h1 {
 }
 
 .item {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: teal;
+
+    height: 200px;
 }
 
 .item:nth-child(even) { /* Elementos pares */
