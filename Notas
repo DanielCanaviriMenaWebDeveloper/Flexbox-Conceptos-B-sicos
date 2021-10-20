@@ -46,5 +46,6 @@ flex-wrap : no-wrap (default) | wrap | wrap-reverse
 
 3.- Como se calcula el CROSS SIZE 
     - Se calcula mediante 3 escenarios
-    1. Se ha definido el tamaño ya sea por width o height, segun el flex-direction.
-    
+    1. Se ha definido el tamaño del cross size (width / height) segun el flex-direction.
+    2. No se ha definido el tamaño del cross size (width / height) segun el flex-direction y no 
+        se ha definido align-item o align-content.
